@@ -1,0 +1,13 @@
+.transition{
+    width: 100px;
+    height: 100px;
+    background: #d7d8aa;
+    -webkit-transition: width 2s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+
+.transition:hover {
+    width: 300px;
+}
